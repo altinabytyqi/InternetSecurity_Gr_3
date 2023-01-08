@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+#Dekriptimi i fajllava te enkriptuar nga malware.py
+
 import os
 from cryptography.fernet import Fernet
 
