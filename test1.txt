@@ -1,1 +1,3 @@
+#Krijimi i fajllit per testim ne direktorium
+
 nice day
